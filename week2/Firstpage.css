@@ -1,0 +1,47 @@
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+body{
+    background-color: rgb(0,0,0);
+
+
+
+}
+.Week1 {
+    overflow: visible;
+    background-color: black;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .Week1 a {
+    float: none;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    width: 333.3333px;
+  }
+  
+  .Week1 a:hover {
+    background-color: black;
+    color: wheat;
+  }
+  
+  .Week1 a.active {
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+
