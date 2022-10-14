@@ -26,7 +26,9 @@
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
-        <h1>Data Science.</h1>
+        
+        <h1>Portofolio.</h1>
+        
         
         <h3>Portofolio</h3>
         <h3>Week 1</h3>
@@ -39,6 +41,10 @@
         <div class="chart" id="Chart2"> </div>
         
         <h3>Week 2</h3> 
+        <div class="chart" id="Chart3"></div>
+
+        <div class="chart" id="Chart4"></div>
+        </div>
 </body>
 
 
@@ -47,10 +53,14 @@
     //chart1_covidUKRegions.json
     var myChart1 = "Task1_graph1.json";
     var myChart2 = "Task1_graph2.json";
+    var myChart3 =  "IMFcreditclear.json"
+    var myChart4 =  "adjustedIMF.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
