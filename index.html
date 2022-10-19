@@ -61,8 +61,9 @@
         </div>
         
         <div class="chart" id="Chart3"></div>
+        
         <div class="tasks">
-         <p> The second chart is an improved version of a chart from the FT, due to inflation adjustment</p>   
+             <p> The second chart is an improved version of a chart from the FT, due to inflation adjustment</p>   
         </div>
         
        
@@ -73,6 +74,12 @@
         <h2>Task 3</h2>    
         </div>
         <hr>
+
+        <div class="tasks">
+            <p>UK's real GDP over time</p>
+        </div>
+        
+        <div class="chart" id="Chart5"></div>
 
         </div>
 </body>
@@ -85,12 +92,14 @@
     var myChart2 = "Task1_graph2.json";
     var myChart3 =  "IMFcreditclear.json"
     var myChart4 =  "adjustedIMF.json"
+    var myChart5 =  "task3_graph.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
 </script>
 
 </html>
