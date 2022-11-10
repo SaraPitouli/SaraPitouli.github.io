@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+      "title": {
+      "text": "Annual GDP growth (%)",
+      "subtitle": "Annual GDP growth for France and the UK from 1961-2021",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"},
+  
+    "data": {
+      "values": [{"Year": 1961, "France ": 3.6, "United Kingdom": 1.9}, {"Year": 1962, "France ": 5.36, "United Kingdom": 0.25}, {"Year": 1963, "France ": 4.75, "United Kingdom": 4.09}, {"Year": 1964, "France ": 5.25, "United Kingdom": 4.85}, {"Year": 1965, "France ": 3.63, "United Kingdom": 1.49}, {"Year": 1966, "France ": 4.18, "United Kingdom": 1.01}, {"Year": 1967, "France ": 4.0, "United Kingdom": 2.23}, {"Year": 1968, "France ": 3.68, "United Kingdom": 4.93}, {"Year": 1969, "France ": 6.31, "United Kingdom": 1.5}, {"Year": 1970, "France ": 5.3, "United Kingdom": 5.89}, {"Year": 1971, "France ": 4.49, "United Kingdom": 3.07}, {"Year": 1972, "France ": 3.68, "United Kingdom": 3.97}, {"Year": 1973, "France ": 5.52, "United Kingdom": 6.32}, {"Year": 1974, "France ": 3.55, "United Kingdom": -2.55}, {"Year": 1975, "France ": -1.58, "United Kingdom": -1.47}, {"Year": 1976, "France ": 3.8, "United Kingdom": 2.94}, {"Year": 1977, "France ": 2.99, "United Kingdom": 2.49}, {"Year": 1978, "France ": 3.55, "United Kingdom": 4.2}, {"Year": 1979, "France ": 3.13, "United Kingdom": 3.66}, {"Year": 1980, "France ": 1.13, "United Kingdom": -2.15}, {"Year": 1981, "France ": 0.58, "United Kingdom": -0.82}, {"Year": 1982, "France ": 1.97, "United Kingdom": 2.03}, {"Year": 1983, "France ": 0.69, "United Kingdom": 4.19}, {"Year": 1984, "France ": 0.95, "United Kingdom": 2.11}, {"Year": 1985, "France ": 1.05, "United Kingdom": 3.91}, {"Year": 1986, "France ": 1.76, "United Kingdom": 2.91}, {"Year": 1987, "France ": 1.98, "United Kingdom": 5.17}, {"Year": 1988, "France ": 4.15, "United Kingdom": 5.5}, {"Year": 1989, "France ": 3.78, "United Kingdom": 2.31}, {"Year": 1990, "France ": 2.4, "United Kingdom": 0.43}, {"Year": 1991, "France ": 0.49, "United Kingdom": -1.41}, {"Year": 1992, "France ": 1.1, "United Kingdom": 0.13}, {"Year": 1993, "France ": -1.06, "United Kingdom": 2.24}, {"Year": 1994, "France ": 1.98, "United Kingdom": 3.58}, {"Year": 1995, "France ": 1.74, "United Kingdom": 2.26}, {"Year": 1996, "France ": 1.05, "United Kingdom": 2.17}, {"Year": 1997, "France ": 1.97, "United Kingdom": 4.64}, {"Year": 1998, "France ": 3.21, "United Kingdom": 2.85}, {"Year": 1999, "France ": 2.89, "United Kingdom": 2.65}, {"Year": 2000, "France ": 3.21, "United Kingdom": 3.3}, {"Year": 2001, "France ": 1.24, "United Kingdom": 1.68}, {"Year": 2002, "France ": 0.4, "United Kingdom": 1.69}, {"Year": 2003, "France ": 0.11, "United Kingdom": 2.55}, {"Year": 2004, "France ": 2.08, "United Kingdom": 1.77}, {"Year": 2005, "France ": 0.9, "United Kingdom": 1.89}, {"Year": 2006, "France ": 1.74, "United Kingdom": 1.83}, {"Year": 2007, "France ": 1.79, "United Kingdom": 1.48}, {"Year": 2008, "France ": -0.3, "United Kingdom": -1.02}, {"Year": 2009, "France ": -3.37, "United Kingdom": -4.97}, {"Year": 2010, "France ": 1.45, "United Kingdom": 1.33}, {"Year": 2011, "France ": 1.7, "United Kingdom": 0.67}, {"Year": 2012, "France ": -0.17, "United Kingdom": 0.77}, {"Year": 2013, "France ": 0.06, "United Kingdom": 1.21}, {"Year": 2014, "France ": 0.48, "United Kingdom": 2.24}, {"Year": 2015, "France ": 0.75, "United Kingdom": 1.81}, {"Year": 2016, "France ": 0.83, "United Kingdom": 1.49}, {"Year": 2017, "France ": 1.99, "United Kingdom": 1.44}, {"Year": 2018, "France ": 1.59, "United Kingdom": 1.04}, {"Year": 2019, "France ": 1.62, "United Kingdom": 1.1}, {"Year": 2020, "France ": -8.03, "United Kingdom": -9.6}, {"Year": 2021, "France ": 6.77, "United Kingdom": 7.05}]
+  
+    },
+    "width": 400,
+    "height": 300,
+  
+    "mark": "point",
+    "encoding": {
+      "x": {"field": "France ", "type": "quantitative"
+  },
+      "y": {"field": "United Kingdom", "type": "quantitative"}
+      
+    }
+  
+  }
