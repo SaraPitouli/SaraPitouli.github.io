@@ -7,8 +7,8 @@
       "subtitleFontStyle": "italic",
       "anchor": "start"
     },
-    "width": 500,
-    "height": 400,
+    "width": 400,
+    "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/eng/lad.json",
       "format": {"property": "features"}
