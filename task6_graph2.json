@@ -1,0 +1,49 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {
+      "text": "Choropleth",
+      "subtitle": "Income - Average Score by Local District Authorities, Source: ONS",
+      "subtitleFontSize": 10,
+      "subtitleFontStyle": "italic",
+      "anchor": "start"
+    },
+    "width": 500,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/eng/lad.json",
+      "format": {"property": "features"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.LAD13NM",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/task6_data2.csv"
+          },
+          "key": "Local Authority District name (2019)",
+          "fields": ["Income - Average score "]
+        }
+      }
+    ],
+    "mark": {
+      "type": "geoshape",
+      "stroke": "white",
+      "strokeWidth": 0.5
+    },
+    "encoding": {
+      
+      "color": 
+      {"field": "Income - Average score ", 
+      "type": "quantitative"},
+      
+      
+      "tooltip": [
+        {
+          "field": "properties.LAD13NM",
+          "type": "nominal",
+          "title": "Local Authority District (2019)"
+        },
+        {"field": "Income - Average score "}
+      ]
+    }
+  }

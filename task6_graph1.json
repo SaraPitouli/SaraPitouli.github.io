@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Base Map",
+        "subtitle": "England by Local District Authorities, Source: Github - martinjc",
+        "subtitleFontSize": 10,
+        "subtitleFontStyle": "italic",
+        "anchor": "start"
+      },
+    "width": 500,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/eng/lad.json",
+  
+    
+      "format": {"property": "features"}
+    },
+    "mark": {
+      "type": "geoshape",
+      "fill": "rgb(150,150,100)",
+      "stroke": "white",
+      "strokeWidth": 0.5
+    },
+    "encoding": {"tooltip": {"field": "properties.LAD13NM"}}
+  }
