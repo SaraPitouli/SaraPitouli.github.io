@@ -1,11 +1,21 @@
-﻿Income Decile,CPI by income decile 
-1,12.5
-2,11.9
-3,12.5
-4,11.6
-5,11.7
-6,11.0
-7,11.2
-8,10.7
-9,10.5
-10,9.6
+﻿Decile ,Value,Category
+1,12.5,CPI by income decile 
+2,11.9,CPI by income decile 
+3,12.5,CPI by income decile 
+4,11.6,CPI by income decile 
+5,11.7,CPI by income decile 
+6,11.0,CPI by income decile 
+7,11.2,CPI by income decile 
+8,10.7,CPI by income decile 
+9,10.5,CPI by income decile 
+10,9.6,CPI by income decile 
+1,10.6,CPIH by income decile 
+2,10.5,CPIH by income decile 
+3,10.7,CPIH by income decile 
+4,10.1,CPIH by income decile 
+5,10.1,CPIH by income decile 
+6,9.6,CPIH by income decile 
+7,9.6,CPIH by income decile 
+8,9.3,CPIH by income decile 
+9,9.1,CPIH by income decile 
+10,8.5,CPIH by income decile 
