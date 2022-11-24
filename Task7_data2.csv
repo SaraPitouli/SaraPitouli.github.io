@@ -1,179 +1,535 @@
-﻿Date,Decile 2,Decile 9,CPIH
-Jan-08,2.4,2.5,2.4
-Feb-08,2.7,2.6,2.6
-Mar-08,2.7,2.6,2.6
-Apr-08,3.1,2.9,3.0
-May-08,3.5,3.1,3.3
-Jun-08,3.9,3.4,3.7
-Jul-08,4.6,3.8,4.2
-Aug-08,5.0,3.9,4.4
-Sep-08,5.3,4.4,4.8
-Oct-08,4.7,3.7,4.2
-Nov-08,4.4,3.3,3.8
-Dec-08,3.9,2.3,3.0
-Jan-09,4.0,2.1,2.9
-Feb-09,4.0,2.3,3.1
-Mar-09,3.6,2.1,2.8
-Apr-09,3.0,1.7,2.3
-May-09,2.7,1.6,2.1
-Jun-09,2.1,1.3,1.7
-Jul-09,1.9,1.4,1.6
-Aug-09,1.3,1.3,1.4
-Sep-09,0.9,0.9,1.0
-Oct-09,1.1,1.1,1.2
-Nov-09,1.3,1.4,1.5
-Dec-09,1.5,2.5,2.1
-Jan-10,1.9,2.9,2.6
-Feb-10,1.4,2.5,2.1
-Mar-10,1.7,2.9,2.4
-Apr-10,2.0,3.1,2.7
-May-10,1.8,2.8,2.5
-Jun-10,1.8,2.8,2.4
-Jul-10,1.8,2.5,2.3
-Aug-10,2.0,2.6,2.4
-Sep-10,2.0,2.7,2.4
-Oct-10,2.2,2.8,2.5
-Nov-10,2.4,2.9,2.6
-Dec-10,2.8,3.2,3.1
-Jan-11,3.0,3.6,3.4
-Feb-11,3.4,3.8,3.7
-Mar-11,3.1,3.6,3.5
-Apr-11,3.6,3.9,3.8
-May-11,3.6,3.9,3.8
-Jun-11,3.5,3.6,3.6
-Jul-11,3.7,3.8,3.8
-Aug-11,3.9,3.9,3.9
-Sep-11,4.4,4.3,4.5
-Oct-11,4.3,4.2,4.3
-Nov-11,4.1,4.0,4.1
-Dec-11,3.8,3.5,3.7
-Jan-12,3.4,2.7,3.2
-Feb-12,3.4,2.6,3.1
-Mar-12,3.4,2.6,3.1
-Apr-12,3.0,2.3,2.8
-May-12,2.8,2.2,2.5
-Jun-12,2.5,2.0,2.3
-Jul-12,2.5,2.4,2.4
-Aug-12,2.4,2.5,2.3
-Sep-12,2.2,1.9,2.1
-Oct-12,2.4,2.3,2.4
-Nov-12,2.5,2.2,2.4
-Dec-12,2.5,2.4,2.4
-Jan-13,2.4,2.7,2.4
-Feb-13,2.5,2.8,2.5
-Mar-13,2.5,2.7,2.5
-Apr-13,2.3,2.3,2.2
-May-13,2.5,2.5,2.4
-Jun-13,2.6,2.6,2.6
-Jul-13,2.6,2.2,2.5
-Aug-13,2.6,2.0,2.4
-Sep-13,2.4,2.4,2.4
-Oct-13,2.2,2.1,2.0
-Nov-13,2.1,2.1,1.9
-Dec-13,2.1,1.8,1.9
-Jan-14,2.0,1.7,1.8
-Feb-14,1.8,1.5,1.6
-Mar-14,1.8,1.4,1.5
-Apr-14,1.8,1.6,1.7
-May-14,1.5,1.4,1.5
-Jun-14,1.9,1.8,1.8
-Jul-14,1.6,1.6,1.6
-Aug-14,1.6,1.6,1.5
-Sep-14,1.3,1.3,1.3
-Oct-14,1.3,1.3,1.3
-Nov-14,1.0,1.0,1.1
-Dec-14,0.7,0.7,0.7
-Jan-15,0.5,0.5,0.5
-Feb-15,0.3,0.3,0.4
-Mar-15,0.3,0.3,0.3
-Apr-15,0.2,0.2,0.3
-May-15,0.4,0.4,0.4
-Jun-15,0.2,0.3,0.3
-Jul-15,0.4,0.4,0.5
-Aug-15,0.2,0.3,0.4
-Sep-15,0.1,0.2,0.2
-Oct-15,0.2,0.3,0.2
-Nov-15,0.3,0.5,0.4
-Dec-15,0.3,0.6,0.5
-Jan-16,0.6,0.6,0.6
-Feb-16,0.6,0.6,0.6
-Mar-16,0.6,0.8,0.8
-Apr-16,0.6,0.7,0.7
-May-16,0.7,0.7,0.7
-Jun-16,0.8,0.8,0.8
-Jul-16,0.9,0.9,0.9
-Aug-16,0.9,1.0,1.0
-Sep-16,1.2,1.2,1.3
-Oct-16,1.3,1.2,1.3
-Nov-16,1.4,1.4,1.5
-Dec-16,1.7,1.7,1.8
-Jan-17,1.8,1.9,1.9
-Feb-17,2.2,2.3,2.3
-Mar-17,2.4,2.3,2.3
-Apr-17,2.4,2.7,2.6
-May-17,2.6,2.7,2.7
-Jun-17,2.4,2.5,2.6
-Jul-17,2.4,2.6,2.6
-Aug-17,2.6,2.8,2.7
-Sep-17,2.7,2.8,2.8
-Oct-17,2.7,2.9,2.8
-Nov-17,2.8,2.9,2.8
-Dec-17,2.7,2.8,2.7
-Jan-18,2.6,2.8,2.7
-Feb-18,2.4,2.5,2.5
-Mar-18,2.1,2.4,2.3
-Apr-18,2.2,2.3,2.2
-May-18,2.1,2.4,2.3
-Jun-18,2.2,2.4,2.3
-Jul-18,2.2,2.3,2.3
-Aug-18,2.3,2.4,2.4
-Sep-18,2.1,2.3,2.2
-Oct-18,2.1,2.3,2.2
-Nov-18,2.0,2.3,2.2
-Dec-18,1.9,2.0,2.0
-Jan-19,1.6,1.9,1.8
-Feb-19,1.6,1.9,1.8
-Mar-19,1.7,1.9,1.8
-Apr-19,2.0,2.0,2.0
-May-19,2.0,1.9,1.9
-Jun-19,1.9,1.9,1.9
-Jul-19,2.0,2.0,2.0
-Aug-19,1.7,1.7,1.7
-Sep-19,1.7,1.6,1.7
-Oct-19,1.3,1.5,1.5
-Nov-19,1.4,1.5,1.5
-Dec-19,1.3,1.4,1.4
-Jan-20,1.8,1.7,1.8
-Feb-20,1.7,1.7,1.7
-Mar-20,1.6,1.5,1.5
-Apr-20,0.8,1.0,0.9
-May-20,0.6,0.7,0.7
-Jun-20,0.7,0.9,0.8
-Jul-20,1.0,1.2,1.1
-Aug-20,0.4,0.6,0.5
-Sep-20,0.6,0.8,0.7
-Oct-20,0.8,1.0,0.9
-Nov-20,0.4,0.6,0.6
-Dec-20,0.7,0.9,0.8
-Jan-21,0.8,1.1,0.9
-Feb-21,0.6,0.8,0.7
-Mar-21,0.7,1.1,1.0
-Apr-21,1.5,1.7,1.6
-May-21,2.0,2.2,2.1
-Jun-21,2.2,2.6,2.4
-Jul-21,1.8,2.2,2.1
-Aug-21,2.7,3.2,3.0
-Sep-21,2.7,3.1,2.9
-Oct-21,3.8,3.8,3.8
-Nov-21,4.6,4.6,4.6
-Dec-21,4.8,4.8,4.8
-Jan-22,5.0,4.9,4.9
-Feb-22,5.6,5.4,5.5
-Mar-22,6.2,6.2,6.2
-Apr-22,8.3,7.5,7.8
-May-22,8.4,7.6,7.9
-Jun-22,8.7,7.8,8.2
-Jul-22,9.4,8.4,8.8
-Aug-22,9.2,8.3,8.6
-Sep-22,9.5,8.4,8.8
-Oct-22,10.5,9.1,9.6
+﻿Date,Value,Figure 
+Jan-08,2.4,Decile two
+Feb-08,2.7,Decile two
+Mar-08,2.7,Decile two
+Apr-08,3.1,Decile two
+May-08,3.5,Decile two
+Jun-08,3.9,Decile two
+Jul-08,4.6,Decile two
+Aug-08,5.0,Decile two
+Sep-08,5.3,Decile two
+Oct-08,4.7,Decile two
+Nov-08,4.4,Decile two
+Dec-08,3.9,Decile two
+Jan-09,4.0,Decile two
+Feb-09,4.0,Decile two
+Mar-09,3.6,Decile two
+Apr-09,3.0,Decile two
+May-09,2.7,Decile two
+Jun-09,2.1,Decile two
+Jul-09,1.9,Decile two
+Aug-09,1.3,Decile two
+Sep-09,0.9,Decile two
+Oct-09,1.1,Decile two
+Nov-09,1.3,Decile two
+Dec-09,1.5,Decile two
+Jan-10,1.9,Decile two
+Feb-10,1.4,Decile two
+Mar-10,1.7,Decile two
+Apr-10,2.0,Decile two
+May-10,1.8,Decile two
+Jun-10,1.8,Decile two
+Jul-10,1.8,Decile two
+Aug-10,2.0,Decile two
+Sep-10,2.0,Decile two
+Oct-10,2.2,Decile two
+Nov-10,2.4,Decile two
+Dec-10,2.8,Decile two
+Jan-11,3.0,Decile two
+Feb-11,3.4,Decile two
+Mar-11,3.1,Decile two
+Apr-11,3.6,Decile two
+May-11,3.6,Decile two
+Jun-11,3.5,Decile two
+Jul-11,3.7,Decile two
+Aug-11,3.9,Decile two
+Sep-11,4.4,Decile two
+Oct-11,4.3,Decile two
+Nov-11,4.1,Decile two
+Dec-11,3.8,Decile two
+Jan-12,3.4,Decile two
+Feb-12,3.4,Decile two
+Mar-12,3.4,Decile two
+Apr-12,3.0,Decile two
+May-12,2.8,Decile two
+Jun-12,2.5,Decile two
+Jul-12,2.5,Decile two
+Aug-12,2.4,Decile two
+Sep-12,2.2,Decile two
+Oct-12,2.4,Decile two
+Nov-12,2.5,Decile two
+Dec-12,2.5,Decile two
+Jan-13,2.4,Decile two
+Feb-13,2.5,Decile two
+Mar-13,2.5,Decile two
+Apr-13,2.3,Decile two
+May-13,2.5,Decile two
+Jun-13,2.6,Decile two
+Jul-13,2.6,Decile two
+Aug-13,2.6,Decile two
+Sep-13,2.4,Decile two
+Oct-13,2.2,Decile two
+Nov-13,2.1,Decile two
+Dec-13,2.1,Decile two
+Jan-14,2.0,Decile two
+Feb-14,1.8,Decile two
+Mar-14,1.8,Decile two
+Apr-14,1.8,Decile two
+May-14,1.5,Decile two
+Jun-14,1.9,Decile two
+Jul-14,1.6,Decile two
+Aug-14,1.6,Decile two
+Sep-14,1.3,Decile two
+Oct-14,1.3,Decile two
+Nov-14,1.0,Decile two
+Dec-14,0.7,Decile two
+Jan-15,0.5,Decile two
+Feb-15,0.3,Decile two
+Mar-15,0.3,Decile two
+Apr-15,0.2,Decile two
+May-15,0.4,Decile two
+Jun-15,0.2,Decile two
+Jul-15,0.4,Decile two
+Aug-15,0.2,Decile two
+Sep-15,0.1,Decile two
+Oct-15,0.2,Decile two
+Nov-15,0.3,Decile two
+Dec-15,0.3,Decile two
+Jan-16,0.6,Decile two
+Feb-16,0.6,Decile two
+Mar-16,0.6,Decile two
+Apr-16,0.6,Decile two
+May-16,0.7,Decile two
+Jun-16,0.8,Decile two
+Jul-16,0.9,Decile two
+Aug-16,0.9,Decile two
+Sep-16,1.2,Decile two
+Oct-16,1.3,Decile two
+Nov-16,1.4,Decile two
+Dec-16,1.7,Decile two
+Jan-17,1.8,Decile two
+Feb-17,2.2,Decile two
+Mar-17,2.4,Decile two
+Apr-17,2.4,Decile two
+May-17,2.6,Decile two
+Jun-17,2.4,Decile two
+Jul-17,2.4,Decile two
+Aug-17,2.6,Decile two
+Sep-17,2.7,Decile two
+Oct-17,2.7,Decile two
+Nov-17,2.8,Decile two
+Dec-17,2.7,Decile two
+Jan-18,2.6,Decile two
+Feb-18,2.4,Decile two
+Mar-18,2.1,Decile two
+Apr-18,2.2,Decile two
+May-18,2.1,Decile two
+Jun-18,2.2,Decile two
+Jul-18,2.2,Decile two
+Aug-18,2.3,Decile two
+Sep-18,2.1,Decile two
+Oct-18,2.1,Decile two
+Nov-18,2.0,Decile two
+Dec-18,1.9,Decile two
+Jan-19,1.6,Decile two
+Feb-19,1.6,Decile two
+Mar-19,1.7,Decile two
+Apr-19,2.0,Decile two
+May-19,2.0,Decile two
+Jun-19,1.9,Decile two
+Jul-19,2.0,Decile two
+Aug-19,1.7,Decile two
+Sep-19,1.7,Decile two
+Oct-19,1.3,Decile two
+Nov-19,1.4,Decile two
+Dec-19,1.3,Decile two
+Jan-20,1.8,Decile two
+Feb-20,1.7,Decile two
+Mar-20,1.6,Decile two
+Apr-20,0.8,Decile two
+May-20,0.6,Decile two
+Jun-20,0.7,Decile two
+Jul-20,1.0,Decile two
+Aug-20,0.4,Decile two
+Sep-20,0.6,Decile two
+Oct-20,0.8,Decile two
+Nov-20,0.4,Decile two
+Dec-20,0.7,Decile two
+Jan-21,0.8,Decile two
+Feb-21,0.6,Decile two
+Mar-21,0.7,Decile two
+Apr-21,1.5,Decile two
+May-21,2.0,Decile two
+Jun-21,2.2,Decile two
+Jul-21,1.8,Decile two
+Aug-21,2.7,Decile two
+Sep-21,2.7,Decile two
+Oct-21,3.8,Decile two
+Nov-21,4.6,Decile two
+Dec-21,4.8,Decile two
+Jan-22,5.0,Decile two
+Feb-22,5.6,Decile two
+Mar-22,6.2,Decile two
+Apr-22,8.3,Decile two
+May-22,8.4,Decile two
+Jun-22,8.7,Decile two
+Jul-22,9.4,Decile two
+Aug-22,9.2,Decile two
+Sep-22,9.5,Decile two
+Oct-22,10.5,Decile two
+Jan-08,2.5,Decile nine
+Feb-08,2.6,Decile nine
+Mar-08,2.6,Decile nine
+Apr-08,2.9,Decile nine
+May-08,3.1,Decile nine
+Jun-08,3.4,Decile nine
+Jul-08,3.8,Decile nine
+Aug-08,3.9,Decile nine
+Sep-08,4.4,Decile nine
+Oct-08,3.7,Decile nine
+Nov-08,3.3,Decile nine
+Dec-08,2.3,Decile nine
+Jan-09,2.1,Decile nine
+Feb-09,2.3,Decile nine
+Mar-09,2.1,Decile nine
+Apr-09,1.7,Decile nine
+May-09,1.6,Decile nine
+Jun-09,1.3,Decile nine
+Jul-09,1.4,Decile nine
+Aug-09,1.3,Decile nine
+Sep-09,0.9,Decile nine
+Oct-09,1.1,Decile nine
+Nov-09,1.4,Decile nine
+Dec-09,2.5,Decile nine
+Jan-10,2.9,Decile nine
+Feb-10,2.5,Decile nine
+Mar-10,2.9,Decile nine
+Apr-10,3.1,Decile nine
+May-10,2.8,Decile nine
+Jun-10,2.8,Decile nine
+Jul-10,2.5,Decile nine
+Aug-10,2.6,Decile nine
+Sep-10,2.7,Decile nine
+Oct-10,2.8,Decile nine
+Nov-10,2.9,Decile nine
+Dec-10,3.2,Decile nine
+Jan-11,3.6,Decile nine
+Feb-11,3.8,Decile nine
+Mar-11,3.6,Decile nine
+Apr-11,3.9,Decile nine
+May-11,3.9,Decile nine
+Jun-11,3.6,Decile nine
+Jul-11,3.8,Decile nine
+Aug-11,3.9,Decile nine
+Sep-11,4.3,Decile nine
+Oct-11,4.2,Decile nine
+Nov-11,4.0,Decile nine
+Dec-11,3.5,Decile nine
+Jan-12,2.7,Decile nine
+Feb-12,2.6,Decile nine
+Mar-12,2.6,Decile nine
+Apr-12,2.3,Decile nine
+May-12,2.2,Decile nine
+Jun-12,2.0,Decile nine
+Jul-12,2.4,Decile nine
+Aug-12,2.5,Decile nine
+Sep-12,1.9,Decile nine
+Oct-12,2.3,Decile nine
+Nov-12,2.2,Decile nine
+Dec-12,2.4,Decile nine
+Jan-13,2.7,Decile nine
+Feb-13,2.8,Decile nine
+Mar-13,2.7,Decile nine
+Apr-13,2.3,Decile nine
+May-13,2.5,Decile nine
+Jun-13,2.6,Decile nine
+Jul-13,2.2,Decile nine
+Aug-13,2.0,Decile nine
+Sep-13,2.4,Decile nine
+Oct-13,2.1,Decile nine
+Nov-13,2.1,Decile nine
+Dec-13,1.8,Decile nine
+Jan-14,1.7,Decile nine
+Feb-14,1.5,Decile nine
+Mar-14,1.4,Decile nine
+Apr-14,1.6,Decile nine
+May-14,1.4,Decile nine
+Jun-14,1.8,Decile nine
+Jul-14,1.6,Decile nine
+Aug-14,1.6,Decile nine
+Sep-14,1.3,Decile nine
+Oct-14,1.3,Decile nine
+Nov-14,1.0,Decile nine
+Dec-14,0.7,Decile nine
+Jan-15,0.5,Decile nine
+Feb-15,0.3,Decile nine
+Mar-15,0.3,Decile nine
+Apr-15,0.2,Decile nine
+May-15,0.4,Decile nine
+Jun-15,0.3,Decile nine
+Jul-15,0.4,Decile nine
+Aug-15,0.3,Decile nine
+Sep-15,0.2,Decile nine
+Oct-15,0.3,Decile nine
+Nov-15,0.5,Decile nine
+Dec-15,0.6,Decile nine
+Jan-16,0.6,Decile nine
+Feb-16,0.6,Decile nine
+Mar-16,0.8,Decile nine
+Apr-16,0.7,Decile nine
+May-16,0.7,Decile nine
+Jun-16,0.8,Decile nine
+Jul-16,0.9,Decile nine
+Aug-16,1.0,Decile nine
+Sep-16,1.2,Decile nine
+Oct-16,1.2,Decile nine
+Nov-16,1.4,Decile nine
+Dec-16,1.7,Decile nine
+Jan-17,1.9,Decile nine
+Feb-17,2.3,Decile nine
+Mar-17,2.3,Decile nine
+Apr-17,2.7,Decile nine
+May-17,2.7,Decile nine
+Jun-17,2.5,Decile nine
+Jul-17,2.6,Decile nine
+Aug-17,2.8,Decile nine
+Sep-17,2.8,Decile nine
+Oct-17,2.9,Decile nine
+Nov-17,2.9,Decile nine
+Dec-17,2.8,Decile nine
+Jan-18,2.8,Decile nine
+Feb-18,2.5,Decile nine
+Mar-18,2.4,Decile nine
+Apr-18,2.3,Decile nine
+May-18,2.4,Decile nine
+Jun-18,2.4,Decile nine
+Jul-18,2.3,Decile nine
+Aug-18,2.4,Decile nine
+Sep-18,2.3,Decile nine
+Oct-18,2.3,Decile nine
+Nov-18,2.3,Decile nine
+Dec-18,2.0,Decile nine
+Jan-19,1.9,Decile nine
+Feb-19,1.9,Decile nine
+Mar-19,1.9,Decile nine
+Apr-19,2.0,Decile nine
+May-19,1.9,Decile nine
+Jun-19,1.9,Decile nine
+Jul-19,2.0,Decile nine
+Aug-19,1.7,Decile nine
+Sep-19,1.6,Decile nine
+Oct-19,1.5,Decile nine
+Nov-19,1.5,Decile nine
+Dec-19,1.4,Decile nine
+Jan-20,1.7,Decile nine
+Feb-20,1.7,Decile nine
+Mar-20,1.5,Decile nine
+Apr-20,1.0,Decile nine
+May-20,0.7,Decile nine
+Jun-20,0.9,Decile nine
+Jul-20,1.2,Decile nine
+Aug-20,0.6,Decile nine
+Sep-20,0.8,Decile nine
+Oct-20,1.0,Decile nine
+Nov-20,0.6,Decile nine
+Dec-20,0.9,Decile nine
+Jan-21,1.1,Decile nine
+Feb-21,0.8,Decile nine
+Mar-21,1.1,Decile nine
+Apr-21,1.7,Decile nine
+May-21,2.2,Decile nine
+Jun-21,2.6,Decile nine
+Jul-21,2.2,Decile nine
+Aug-21,3.2,Decile nine
+Sep-21,3.1,Decile nine
+Oct-21,3.8,Decile nine
+Nov-21,4.6,Decile nine
+Dec-21,4.8,Decile nine
+Jan-22,4.9,Decile nine
+Feb-22,5.4,Decile nine
+Mar-22,6.2,Decile nine
+Apr-22,7.5,Decile nine
+May-22,7.6,Decile nine
+Jun-22,7.8,Decile nine
+Jul-22,8.4,Decile nine
+Aug-22,8.3,Decile nine
+Sep-22,8.4,Decile nine
+Oct-22,9.1,Decile nine
+Jan-08,2.4,CPIH
+Feb-08,2.6,CPIH
+Mar-08,2.6,CPIH
+Apr-08,3.0,CPIH
+May-08,3.3,CPIH
+Jun-08,3.7,CPIH
+Jul-08,4.2,CPIH
+Aug-08,4.4,CPIH
+Sep-08,4.8,CPIH
+Oct-08,4.2,CPIH
+Nov-08,3.8,CPIH
+Dec-08,3.0,CPIH
+Jan-09,2.9,CPIH
+Feb-09,3.1,CPIH
+Mar-09,2.8,CPIH
+Apr-09,2.3,CPIH
+May-09,2.1,CPIH
+Jun-09,1.7,CPIH
+Jul-09,1.6,CPIH
+Aug-09,1.4,CPIH
+Sep-09,1.0,CPIH
+Oct-09,1.2,CPIH
+Nov-09,1.5,CPIH
+Dec-09,2.1,CPIH
+Jan-10,2.6,CPIH
+Feb-10,2.1,CPIH
+Mar-10,2.4,CPIH
+Apr-10,2.7,CPIH
+May-10,2.5,CPIH
+Jun-10,2.4,CPIH
+Jul-10,2.3,CPIH
+Aug-10,2.4,CPIH
+Sep-10,2.4,CPIH
+Oct-10,2.5,CPIH
+Nov-10,2.6,CPIH
+Dec-10,3.1,CPIH
+Jan-11,3.4,CPIH
+Feb-11,3.7,CPIH
+Mar-11,3.5,CPIH
+Apr-11,3.8,CPIH
+May-11,3.8,CPIH
+Jun-11,3.6,CPIH
+Jul-11,3.8,CPIH
+Aug-11,3.9,CPIH
+Sep-11,4.5,CPIH
+Oct-11,4.3,CPIH
+Nov-11,4.1,CPIH
+Dec-11,3.7,CPIH
+Jan-12,3.2,CPIH
+Feb-12,3.1,CPIH
+Mar-12,3.1,CPIH
+Apr-12,2.8,CPIH
+May-12,2.5,CPIH
+Jun-12,2.3,CPIH
+Jul-12,2.4,CPIH
+Aug-12,2.3,CPIH
+Sep-12,2.1,CPIH
+Oct-12,2.4,CPIH
+Nov-12,2.4,CPIH
+Dec-12,2.4,CPIH
+Jan-13,2.4,CPIH
+Feb-13,2.5,CPIH
+Mar-13,2.5,CPIH
+Apr-13,2.2,CPIH
+May-13,2.4,CPIH
+Jun-13,2.6,CPIH
+Jul-13,2.5,CPIH
+Aug-13,2.4,CPIH
+Sep-13,2.4,CPIH
+Oct-13,2.0,CPIH
+Nov-13,1.9,CPIH
+Dec-13,1.9,CPIH
+Jan-14,1.8,CPIH
+Feb-14,1.6,CPIH
+Mar-14,1.5,CPIH
+Apr-14,1.7,CPIH
+May-14,1.5,CPIH
+Jun-14,1.8,CPIH
+Jul-14,1.6,CPIH
+Aug-14,1.5,CPIH
+Sep-14,1.3,CPIH
+Oct-14,1.3,CPIH
+Nov-14,1.1,CPIH
+Dec-14,0.7,CPIH
+Jan-15,0.5,CPIH
+Feb-15,0.4,CPIH
+Mar-15,0.3,CPIH
+Apr-15,0.3,CPIH
+May-15,0.4,CPIH
+Jun-15,0.3,CPIH
+Jul-15,0.5,CPIH
+Aug-15,0.4,CPIH
+Sep-15,0.2,CPIH
+Oct-15,0.2,CPIH
+Nov-15,0.4,CPIH
+Dec-15,0.5,CPIH
+Jan-16,0.6,CPIH
+Feb-16,0.6,CPIH
+Mar-16,0.8,CPIH
+Apr-16,0.7,CPIH
+May-16,0.7,CPIH
+Jun-16,0.8,CPIH
+Jul-16,0.9,CPIH
+Aug-16,1.0,CPIH
+Sep-16,1.3,CPIH
+Oct-16,1.3,CPIH
+Nov-16,1.5,CPIH
+Dec-16,1.8,CPIH
+Jan-17,1.9,CPIH
+Feb-17,2.3,CPIH
+Mar-17,2.3,CPIH
+Apr-17,2.6,CPIH
+May-17,2.7,CPIH
+Jun-17,2.6,CPIH
+Jul-17,2.6,CPIH
+Aug-17,2.7,CPIH
+Sep-17,2.8,CPIH
+Oct-17,2.8,CPIH
+Nov-17,2.8,CPIH
+Dec-17,2.7,CPIH
+Jan-18,2.7,CPIH
+Feb-18,2.5,CPIH
+Mar-18,2.3,CPIH
+Apr-18,2.2,CPIH
+May-18,2.3,CPIH
+Jun-18,2.3,CPIH
+Jul-18,2.3,CPIH
+Aug-18,2.4,CPIH
+Sep-18,2.2,CPIH
+Oct-18,2.2,CPIH
+Nov-18,2.2,CPIH
+Dec-18,2.0,CPIH
+Jan-19,1.8,CPIH
+Feb-19,1.8,CPIH
+Mar-19,1.8,CPIH
+Apr-19,2.0,CPIH
+May-19,1.9,CPIH
+Jun-19,1.9,CPIH
+Jul-19,2.0,CPIH
+Aug-19,1.7,CPIH
+Sep-19,1.7,CPIH
+Oct-19,1.5,CPIH
+Nov-19,1.5,CPIH
+Dec-19,1.4,CPIH
+Jan-20,1.8,CPIH
+Feb-20,1.7,CPIH
+Mar-20,1.5,CPIH
+Apr-20,0.9,CPIH
+May-20,0.7,CPIH
+Jun-20,0.8,CPIH
+Jul-20,1.1,CPIH
+Aug-20,0.5,CPIH
+Sep-20,0.7,CPIH
+Oct-20,0.9,CPIH
+Nov-20,0.6,CPIH
+Dec-20,0.8,CPIH
+Jan-21,0.9,CPIH
+Feb-21,0.7,CPIH
+Mar-21,1.0,CPIH
+Apr-21,1.6,CPIH
+May-21,2.1,CPIH
+Jun-21,2.4,CPIH
+Jul-21,2.1,CPIH
+Aug-21,3.0,CPIH
+Sep-21,2.9,CPIH
+Oct-21,3.8,CPIH
+Nov-21,4.6,CPIH
+Dec-21,4.8,CPIH
+Jan-22,4.9,CPIH
+Feb-22,5.5,CPIH
+Mar-22,6.2,CPIH
+Apr-22,7.8,CPIH
+May-22,7.9,CPIH
+Jun-22,8.2,CPIH
+Jul-22,8.8,CPIH
+Aug-22,8.6,CPIH
+Sep-22,8.8,CPIH
+Oct-22,9.6,CPIH
