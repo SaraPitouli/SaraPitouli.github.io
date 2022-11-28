@@ -9,11 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Portofolio- Sara Pitouli</title>
+    <title>Data Science Portofolio</title>
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index2.css">
 
+    <script> src="kit.fontawasome.com/a076d053999.js"</script>
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -24,64 +25,142 @@
 
 
 <body>
+    <div class="sidebar_menu">
+        <div class="logo">
+            <a href="#">Data Science</a>
+        </div>
+        <div class="btn_two">
+            <label for="check">
+                <i class="fas fa-times"></i>
+            </label>
+        </div>
+        <div class="menu">
+        <ul>
+            <li><i class="fas fa-qrcode"></i>
+                <a href="sidebar.html">Home</a>
+            </li>
+            <li><i class="fas fa-link"></i>
+                <a href="index.html">Portofolio</a>
+            </li>
+            <li><i class="fas fa-qrcode"></i>
+                <a href="#">Project</a>
+            </li>
+            <li><i class="fas fa-qrcode"></i>
+                <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">Github</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         
-        <div class="container">
-           <h1>Portofolio</h1>  
-        </div>
-       
-        <hr>
-        <div class="title">
-          <h2>Task 1</h2>   
-        </div>
-
-        <hr>
-       
-        <div class="tasks">
-        <p>The first chart tracks unemployment level.</p>
-        </div>
+       <h1>Data Science Portofolio</h1>  
+    
+       <h2>Task 1</h2>   
+    
+       <p>The first chart tracks unemployment level.</p>
 
         <div class="chart" id="Chart1"></div>
         
-        <div class="tasks">
         <p>The second chart looks at inflation since 1800</p>    
-        </div>
         
         <div class="chart" id="Chart2"> </div>
+    </div>
         
-        <hr>
-        <div class="title">
+        
+    <div class="myWeek2">
         <h2>Task 2</h2>    
-        </div>
-        <hr>
-
-        <div class="tasks">
-            <p>The first chart displays oustanding IMF lending from 1984 to present day </p>
-        </div>
+    
+        <p>The first chart displays oustanding IMF lending from 1984 to present day </p>
+        
         
         <div class="chart" id="Chart3"></div>
         
-        <div class="tasks">
-             <p> The second chart is an improved version of a chart from the FT, due to inflation adjustment</p>   
-        </div>
         
+        <p> The second chart is an improved version of a chart from the FT, due to inflation adjustment</p>   
+        
+
        
         <div class="chart" id="Chart4"></div>
-
-        <hr>
-        <div class="title">
+        <p> IMF lent the most, as a percentage of GDP, in 1984 making it the riskiest year.</p>
+    </div>    
+        
+    
+    <div class="myWeek3">
         <h2>Task 3</h2>    
-        </div>
-        <hr>
-
-        <div class="tasks">
-            <p>UK's real GDP over time</p>
-        </div>
+        
+        <p>UK's real GDP over time</p>
+        
         
         <div class="chart" id="Chart5"></div>
 
-        </div>
+        
+        <p>UK's real GDP over time</p>
+        
+        
+        <div class="chart" id="Chart6"></div>
+    </div>
+        
+          
+
+       
+    <div class="myWeek4">
+            <h2>Task 4</h2>    
+            
+            <p>To access the code behind the scraper, click <a class="textLink" href="https://colab.research.google.com/drive/1Mntz6TgMVb-vkUe0RjkSZyMqKlBCdFP3?userstoinvite=csaladenes%40gmail.com&actionButton=1#scrollTo=itX_7-M05wEP"> here</a></p>
+        
+        
+            <div class="chart" id="Chart7"></div>
+    </div>
+
+
+
+    <div class="myWeek5">
+           
+        
+            <h2>Task 5</h2>    
+    
+            <p>To access the code behind the graphs, click <a class="textLink" href="https://colab.research.google.com/drive/1sIvcxCa0sZj9IsDo3_JgkSHxt6LjK44o#scrollTo=7Idesr6_34Kw"> here</a></p>
+
+            
+            <div class="chartw5" id="Chart8"></div>
+            <div class="chartw5" id="Chart9"></div>
+            <div class="chartw5" id="Chart10"></div>
+            <div class="chartw5" id="Chart11"></div>
+            <div class="chartw5" id="Chart12"></div>
+            <div class="chartw5" id="Chart13"></div>
+            <div class="chartw5" id="Chart14"></div>
+            <div class="chartw5" id="Chart15"></div>
+            <div class="chartw5" id="Chart16"></div>
+    
+
+
+    </div>
+
+    <div class="myWeek7">
+        <h2>Task 6</h2>    
+        
+        <p>text</p>
+        
+        
+        <div class="chart" id="Chart17"></div>
+        
+        
+        <div class="chart" id="Chart18"></div>
+    </div>
+
+    <div class="myWeek8">
+        <h2>Task 7</h2>    
+        
+        <p>text</p>
+        
+        
+        <div class="chart" id="Chart19"></div>
+        
+        
+        <div class="chart" id="Chart20"></div>
+    </div>
 </body>
 
 
@@ -90,9 +169,24 @@
     //chart1_covidUKRegions.json
     var myChart1 = "Task1_graph1.json";
     var myChart2 = "Task1_graph2.json";
-    var myChart3 =  "IMFcreditclear.json"
-    var myChart4 =  "adjustedIMF.json"
-    var myChart5 =  "task3_graph.json"
+    var myChart3 = "IMFcreditclear.json";
+    var myChart4 =  "adjustedIMF.json";
+    var myChart5 =  "task3_graph.json";
+    var myChart6 =  "task3_graph2.json";
+    var myChart7 =  "task4_graph.json";
+    var myChart8 =  "task5_graph1.json";
+    var myChart9 =  "task5_graph2.json";
+    var myChart10 =  "task5_grpah3.json";
+    var myChart11 =  "task5_graph4.json";
+    var myChart12 =  "task5_graph5.json";
+    var myChart13 =  "task5_graph6.json";
+    var myChart14 =  "task5_graph7.json";
+    var myChart15 =  "task5_graph8.json";
+    var myChart16 =  "task5_graph9.json";
+    var myChart17 =  "task6_graph1.json";
+    var myChart18 =  "task6_graph2.json";
+    var myChart19 =  "task7_graph1.json";
+    var myChart20 =  "task7_graph2.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -100,6 +194,21 @@
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
 </script>
 
 </html>
