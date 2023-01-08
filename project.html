@@ -95,8 +95,8 @@
     <div class="myGraph1">
         <h3>a) Womans' Position in the Economy</h3> 
         <div class="text">
-            <a>Figure 1 shows an API, from The World Bank, looking at the female labour force participation around the world. In 2021, 67.7% of women were in employment, whereas men’s employment stood at 78.5%. In other words, there is still a gender employment gap of 10.8 p.p., which has only slightly decreased in the last 10 years (-1.9 p.p.). 
-                One issue with the API, was that it was in XML format, which Vega could not read, and so I had to manually convert it into a “json” format by adding “&format=json” to the URL. Another issue was that of pagination. The API was dividing the data points by 50 per page, allowing me to only see the first page. Since the dataset included 11925 data points, I solved this by changing the pagination to 12000 points per page. To do this I added “page=1 &date=2019:2021&per_page=12000” in the URL. I then preprocessed the data in <a class=”textLink” href=”https://colab.research.google.com/drive/1Tezc-EywaLCdSEtpKuJ_naIG8KOzzCJy?usp=sharing”> colab. </a> One issue with that is that the country name was nested inside the same variable that included the country ID, and so I had to separate them to get the names. I also filtered by “2021” to get the data only for that year. </a>
+            <a>Figure 1 shows an API, from The World Bank, looking at the female labour force participation around the world. In 2021, 67.7% of women were in employment, whereas mens' employment stood at 78.5%. In other words, there is still a gender employment gap of 10.8 p.p., which has only slightly decreased in the last 10 years (-1.9 p.p.). 
+                One issue with the API, was that it was in XML format, which Vega could not read, and so I had to manually convert it into a “json” format by adding “&format=json” to the URL. Another issue was that of pagination. The API was dividing the data points by 50 per page, allowing me to only see the first page. Since the dataset included 11925 data points, I solved this by changing the pagination to 12000 points per page. To do this I added “page=1 &date=2019:2021&per_page=12000” in the URL. I then preprocessed the data in <a class="textLink" href="https://github.com/SaraPitouli/SaraPitouli.github.io/blob/main/labourforce_participation.ipynb"> colab. </a> One issue with that is that the country name was nested inside the same variable that included the country ID, and so I had to separate them to get the names. I also filtered by “2021” to get the data only for that year. </a>
          
         </div>
         
@@ -118,7 +118,7 @@
         
 
         <div class="text">
-            <a>Figure 4 uses data from OECD, in a csv format, to plot the female-to-male ratio of time spent on unpaid work. The chart clearly shows that woman account for the majority of unpaid work, regardless of their working hours. Hence, woman, on average, work a lot more than men. Unfortunately, unpaid work is unaccounted for in most labour supply statistics, which leads to restricting womans' choices and opportunities for a career. A problem which doesn’t affect men. </a>
+            <a>Figure 4 uses data from OECD, in a csv format, to plot the female-to-male ratio of time spent on unpaid work. The chart clearly shows that woman account for the majority of unpaid work, regardless of their working hours. Hence, woman, on average, work a lot more than men. Unfortunately, unpaid work is unaccounted for in most labour supply statistics, which leads to restricting womans' choices and opportunities for a career. A problem which doesn't affect men. </a>
           </div>
         <div class="chart chart-centre2" id="Chart4"> </div>
       
@@ -131,7 +131,7 @@
        <h3>b) GDP and Gender Inclusion</h3>
        
           <div class="text">
-            <a>Figure 5 plots the gender wage gap versus GDP per capita over time, worldwide. The data is collected from ILO in a csv format. The chart shows a weak positive correlation between GDP and the wage gap, which is, however, not linear. Middle income countries have smaller pay gaps, suggesting that the gender wage gap is smaller where fewer woman participate in the labour market. Hence, this doesn’t suggest equality but rather that only woman with perhaps no husband or children enter the market.</a>
+            <a>Figure 5 plots the gender wage gap versus GDP per capita over time, worldwide. The data is collected from ILO in a csv format. The chart shows a weak positive correlation between GDP and the wage gap, which is, however, not linear. Middle income countries have smaller pay gaps, suggesting that the gender wage gap is smaller where fewer woman participate in the labour market. Hence, this doesn't suggest equality but rather that only woman with perhaps no husband or children enter the market.</a>
           </div>
       
 
@@ -139,7 +139,7 @@
 
           <div class="text">
             <a>Figure 6 plots the average growth rate of real GDP per capita for emerging-market and
-                developing economies over the 1990s and the Gender Inequality Index in 1990. The regession of GII on GDP suggests a negative correlation where higher GDP is linked to lower inequality. The data fro GDP and GII was collected from the World Bank and the IMF respectively, in csv formats. One challenge was joining the two datasets and filtering by country. I also had to calculate the average GDP from 1990-1999 for all countries. All this was done in <a class=”textLink” href=”https://colab.research.google.com/github/SaraPitouli/SaraPitouli.github.io/blob/main/scatterplot.ipynb”> colab. </a></a>
+                developing economies over the 1990s and the Gender Inequality Index in 1990. The regession of GII on GDP suggests a negative correlation where higher GDP is linked to lower inequality. The data fro GDP and GII was collected from the World Bank and the IMF respectively, in csv formats. One challenge was joining the two datasets and filtering by country. I also had to calculate the average GDP from 1990-1999 for all countries. All this was done in <a class="textLink" href="https://colab.research.google.com/github/SaraPitouli/SaraPitouli.github.io/blob/main/scatterplot.ipynb"> colab. </a></a>
           </div>
 
           <div class="chart chart-centre" id="Chart6"> </div>
