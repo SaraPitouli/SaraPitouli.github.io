@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Data Science Portofolio</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="project.css">
+
+    <!-- <script> src="kit.fontawasome.com/a076d053999.js"</script>  -->
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <!-- <script src="https://kit.fontawesome.com/b711091487.js" crossorigin="anonymous"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+</head>
+
+
+
+<body>
+    <!--navigation bar and title-->
+    <div class="sidebar_menu">
+        <ul style= "padding-left: 0px;margin-top: 0px;">
+             <li>
+                <a href="sidebar.html">
+                 <span class="icon"><i class="fa fa-home"></i></span>
+                 <span class="title">Home</span>
+                </a>
+             </li>
+        
+            <li>
+                <a href="index.html">
+                 <span class="icon"><i class="fa fa-code"></i></span>
+                 <span class="title">Portfolio</span>
+                </a>
+            </li>
+        
+            <li>
+                <a class="active" href="project.html">
+                 <span class="icon"><i class="fa fa-book"></i></span>
+                 <span class="title">Project</span>
+                </a>
+            </li>
+    
+        
+            <li>
+                <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">
+                 <span class="icon"><i class="fa fa-user"></i></span>
+                 <span class="title">Github</span>
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+
+    <div style="margin-left:150px;margin-right:5%;padding:2px 15px;height:1000px;">
+
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    
+    <header>
+         <div class="title">
+            <h1>Data Science</h1>
+                <h1>Project</h1>
+                <h4>Sara Pitouli | student numner: 2052718 </h4>
+
+         </div>
+        
+         <h2>Topic: Woman in the Economy</h2>
+        
+
+    </header>
+
+    <div class="text">
+        <a>Despite some progress, woman are still viewed as the secondary gender in many parts of the world. From experiencing discrimination in their marriage, employment and culture, to not having legal autonomy, to needing permission from their husbands or paternal guardians to study, work, or travel, to not being properly protected against domestic violence and sexual assault, to not deciding for their bodies but having others decide for them, to not deciding when and if they want to get married or have children, to not having equal access to health care and sanitation, to not being supported for their unpaid work, to not being paid equally, to being cut from political engagement and more. This project is focusing only on the labour market. Its aim is:</a>
+    </div>   
+    <div class="text2">
+        <a> a) To provide an insight into womans' position in the economy today, and </a>
+    </div>    
+    <div class="text2">
+        <a> b) to prove that the economic empowerment of woman can lead to economic growth.</a>
+    </div>
+
+    <div class="myGraph1">
+        <h3>a) Womans' Position in the Economy</h3> 
+        <div class="text">
+            <a>Figure 1 shows an API, from The World Bank, looking at the female labour force participation around the world. In 2021, 67.7% of women were in employment, whereas men’s employment stood at 78.5%. In other words, there is still a gender employment gap of 10.8 p.p., which has only slightly decreased in the last 10 years (-1.9 p.p.). 
+                One issue with the API, was that it was in XML format, which Vega could not read, and so I had to manually convert it into a “json” format by adding “&format=json” to the URL. Another issue was that of pagination. The API was dividing the data points by 50 per page, allowing me to only see the first page. Since the dataset included 11925 data points, I solved this by changing the pagination to 12000 points per page. To do this I added “page=1 &date=2019:2021&per_page=12000” in the URL. I then preprocessed the data in <a class=”textLink” href=”https://colab.research.google.com/drive/1Tezc-EywaLCdSEtpKuJ_naIG8KOzzCJy?usp=sharing”> colab. </a> One issue with that is that the country name was nested inside the same variable that included the country ID, and so I had to separate them to get the names. I also filtered by “2021” to get the data only for that year. </a>
+         
+        </div>
+        
+         <div class="chart chart-centre2" id="Chart2"> </div>
+        
+         <div class="text">
+          <a>Figure 2 looks at the proportion of woman, out of all individuals, falling in the top 10%, 1%, and 0.1% of the income distribution, in 2000 and 2013, for 10 developed economies. Woman make less than 50% of the individuals in all of the top income groups, across all nine countries. For higher income distributions, the share of woman becomes lower. Figure 3 shows the share of firms with woman in management positions, in 2020. As we can see, only 18% of firms worldwide have female managers.  </a>
+        </div>
+        <div class="text">
+            <a> The graphs are based on data collected from "Our World In Data" and "The World Bank", in csv formats. One challenge was manually combining different datasets to get the final data. </a>
+          </div>
+        
+        <table>
+          <tr>
+            <td><div class="chart" id="Chart3"> </div></td>
+            <td><div class="chart" id="Chart5"> </div></td>
+          </tr>
+        </table>
+        
+
+        <div class="text">
+            <a>Figure 4 uses data from OECD, in a csv format, to plot the female-to-male ratio of time spent on unpaid work. The chart clearly shows that woman account for the majority of unpaid work, regardless of their working hours. Hence, woman, on average, work a lot more than men. Unfortunately, unpaid work is unaccounted for in most labour supply statistics, which leads to restricting womans' choices and opportunities for a career. A problem which doesn’t affect men. </a>
+          </div>
+        <div class="chart chart-centre2" id="Chart4"> </div>
+      
+       
+       
+       
+    </div>
+
+    <div class="myGraph2">
+       <h3>b) GDP and Gender Inclusion</h3>
+       
+          <div class="text">
+            <a>Figure 5 plots the gender wage gap versus GDP per capita over time, worldwide. The data is collected from ILO in a csv format. The chart shows a weak positive correlation between GDP and the wage gap, which is, however, not linear. Middle income countries have smaller pay gaps, suggesting that the gender wage gap is smaller where fewer woman participate in the labour market. Hence, this doesn’t suggest equality but rather that only woman with perhaps no husband or children enter the market.</a>
+          </div>
+      
+
+         <div class="chart chart-centre" id="Chart1"> </div>
+
+          <div class="text">
+            <a>Figure 6 plots the average growth rate of real GDP per capita for emerging-market and
+                developing economies over the 1990s and the Gender Inequality Index in 1990. The regession of GII on GDP suggests a negative correlation where higher GDP is linked to lower inequality. The data fro GDP and GII was collected from the World Bank and the IMF respectively, in csv formats. One challenge was joining the two datasets and filtering by country. I also had to calculate the average GDP from 1990-1999 for all countries. All this was done in <a class=”textLink” href=”https://colab.research.google.com/github/SaraPitouli/SaraPitouli.github.io/blob/main/scatterplot.ipynb”> colab. </a></a>
+          </div>
+
+          <div class="chart chart-centre" id="Chart6"> </div>
+
+ 
+    </div>
+
+    <div class="myGraph3">
+        
+        <h3>Conclusions</h3>
+
+        <div class="text">
+            <a>Although more woman work today, they are still underrepresented in the labour market as a whole, and thet still assume the bulk of private domestic and care work. In order for this to change, caring responsibilities have to be shared equally. Seeing the relationship between GDP and female labour force participation, we can conclude that women are a force that moves the markets, and that an increase in womens' labor force participation has the potential to drive global growth. </a>
+        </div>
+
+    </div>
+
+   
+  
+
+
+</body>
+<script>
+    //Define charts:
+    //chart1_covidUKRegions.json
+    var myChart1 =  "task8_graph1.json";
+    var myChart3 =  "task8_graph2.json";
+    var myChart2 =  "project_graph1.json";
+    var myChart4 =  "project_graph2.json";
+    var myChart5 =  "project_graph3.json";
+    var myChart6 =  "project_graph4.json";
+
+     // Embed charts:
+     vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+
+
+</script>
+</html>

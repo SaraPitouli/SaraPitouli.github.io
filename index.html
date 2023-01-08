@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
 <head>
     <meta charset="UTF-8">
@@ -14,153 +15,207 @@
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index2.css">
 
-    <script> src="kit.fontawasome.com/a076d053999.js"</script>
+    <!-- <script> src="kit.fontawasome.com/a076d053999.js"</script>  -->
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <!-- <script src="https://kit.fontawesome.com/b711091487.js" crossorigin="anonymous"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
 </head>
 
 
 
 <body>
+    <!--navigation bar and title-->
     <div class="sidebar_menu">
-        <div class="logo">
-            <a href="#">Data Science</a>
-        </div>
-        <div class="btn_two">
-            <label for="check">
-                <i class="fas fa-times"></i>
-            </label>
-        </div>
-        <div class="menu">
-        <ul>
-            <li><i class="fas fa-qrcode"></i>
-                <a href="sidebar.html">Home</a>
+        <ul style= "padding-left: 0px;margin-top: 0px;">
+             <li>
+                <a href="sidebar.html">
+                 <span class="icon"><i class="fa fa-home"></i></span>
+                 <span class="title">Home</span>
+                </a>
+             </li>
+        
+            <li>
+                <a class= "active" href="index.html">
+                 <span class="icon"><i class="fa fa-code"></i></span>
+                 <span class="title">Portfolio</span>
+                </a>
             </li>
-            <li><i class="fas fa-link"></i>
-                <a href="index.html">Portofolio</a>
+        
+            <li>
+                <a href="project.html">
+                 <span class="icon"><i class="fa fa-book"></i></span>
+                 <span class="title">Project</span>
+                </a>
             </li>
-            <li><i class="fas fa-qrcode"></i>
-                <a href="#">Project</a>
+    
+        
+            <li>
+                <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">
+                 <span class="icon"><i class="fa fa-user"></i></span>
+                 <span class="title">Github</span>
+                </a>
             </li>
-            <li><i class="fas fa-qrcode"></i>
-                <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">Github</a>
-            </li>
+        
         </ul>
-        </div>
     </div>
+
+    <div style="margin-left:150px;margin-right:5%;padding:2px 15px;height:1000px;">
 
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    
+    <header>
+         <div class="title">
+            <h1>Data Science</h1>
+                <h1>Portfolio</h1>
+                <h4>Sara Pitouli | student numner: 2052718 </h4>
+
+         </div>
+        
+        
+    </header>
+   
     <div class="myWeek1">
-        
-       <h1>Data Science Portofolio</h1>  
-    
-       <h2>Task 1</h2>   
-    
-       <p>The first chart tracks unemployment level.</p>
-
-        <div class="chart" id="Chart1"></div>
-        
-        <p>The second chart looks at inflation since 1800</p>    
-        
-        <div class="chart" id="Chart2"> </div>
+        <h2>Task 1: Setting up web page, and embedding two charts</h2>  
+       <table style="width:100%">
+        <div class="text">
+          <a>The first chart tracks unemployment level in the UK, while the second chart looks at inflation since 1800.</a>
+      </div>
+        <tr>
+          <td><div class="chart" id="Chart1"> </div></td>
+          <td><div class="chart" id="Chart2"> </div></td>
+        </tr>
+      </table>
     </div>
-        
-        
+
     <div class="myWeek2">
-        <h2>Task 2</h2>    
-    
-        <p>The first chart displays oustanding IMF lending from 1984 to present day </p>
-        
-        
-        <div class="chart" id="Chart3"></div>
-        
-        
-        <p> The second chart is an improved version of a chart from the FT, due to inflation adjustment</p>   
-        
-
-       
-        <div class="chart" id="Chart4"></div>
-        <p> IMF lent the most, as a percentage of GDP, in 1984 making it the riskiest year.</p>
-    </div>    
-        
-    
-    <div class="myWeek3">
-        <h2>Task 3</h2>    
-        
-        <p>UK's real GDP over time</p>
-        
-        
-        <div class="chart" id="Chart5"></div>
-
-        
-        <p>UK's real GDP over time</p>
-        
-        
-        <div class="chart" id="Chart6"></div>
+        <h2>Task 2: Two charts: replicating one from the Financial Times, and your first original.</h2>  
+       <table style="table-layout: fixed; width: 100%;" >
+        <div class="text">
+          <a>The first chart looks at IMF lending from 1984 to present day. The second chart looks at an improved  version of the first chart, due to inflation adjustment. Comparing the two charts, we can conclude that IMF lent the most, as a percentage of GDP, in 1984 making it the riskiest year.</a>
+      </div>
+      
+        <tr>
+          <td><div class="chart" id="Chart3"> </div></td>
+          <td><div class="chart" id="Chart4"> </div></td>
+        </tr>
+      </table>
     </div>
-        
-          
 
+  
+
+    <div class="myWeek3">
+       <h2>Task 3: Two charts: inline data objects and visual encodings.</h2> 
+       
+        <div class="text">
+          <a>Both charts show UK's real GDP over time. The reason why I chose a scatter plot as an alternative visualisation to the line chart, is that it better helps making conclusions on the relationship of the two countries' GDPs rather than trying to compare two separate lines that fluctuate a lot through the years.</a>
+        </div>
+        
+         <div class="center">
+          <div class="chart chart-centre" id="Chart5"> </div>
+           <div class="chart chart-centre" id="Chart6"> </div>
+         </div>
+          
+        
+     
+    </div>
+
+  
+
+    
        
     <div class="myWeek4">
-            <h2>Task 4</h2>    
-            
-            <p>To access the code behind the scraper, click <a class="textLink" href="https://colab.research.google.com/drive/1Mntz6TgMVb-vkUe0RjkSZyMqKlBCdFP3?userstoinvite=csaladenes%40gmail.com&actionButton=1#scrollTo=itX_7-M05wEP"> here</a></p>
-        
-        
-            <div class="chart" id="Chart7"></div>
+            <h2>Task 4: One chart: Implement a data scraper of your own. Any source, any data.</h2>    
+
+            <div class="text">
+              <a>To access the code behind the scraper, click <a class="textLink" href="https://colab.research.google.com/drive/1Mntz6TgMVb-vkUe0RjkSZyMqKlBCdFP3?userstoinvite=csaladenes%40gmail.com&actionButton=1#scrollTo=itX_7-M05wEP"> here</a>
+            </div>
+            <div class="text">
+              <a>The reason why I chose this website is because it had a very clear table with the data I was looking for making it ideal to scrape.</a>
+            </div>
+            <div class="chart chart-centre" id="Chart7"></div>
     </div>
 
 
 
+    
+
     <div class="myWeek5">
-           
-        
-            <h2>Task 5</h2>    
+        <h2>Task 5: Nine Charts: build a dashboard</h2>  
+        <div class="text">
+            <a>To access the code behind the graphs, click <a class="textLink" href="https://colab.research.google.com/drive/1sIvcxCa0sZj9IsDo3_JgkSHxt6LjK44o#scrollTo=7Idesr6_34Kw"> here</a></a>
+        </div>
     
-            <p>To access the code behind the graphs, click <a class="textLink" href="https://colab.research.google.com/drive/1sIvcxCa0sZj9IsDo3_JgkSHxt6LjK44o#scrollTo=7Idesr6_34Kw"> here</a></p>
-
-            
-            <div class="chartw5" id="Chart8"></div>
-            <div class="chartw5" id="Chart9"></div>
-            <div class="chartw5" id="Chart10"></div>
-            <div class="chartw5" id="Chart11"></div>
-            <div class="chartw5" id="Chart12"></div>
-            <div class="chartw5" id="Chart13"></div>
-            <div class="chartw5" id="Chart14"></div>
-            <div class="chartw5" id="Chart15"></div>
-            <div class="chartw5" id="Chart16"></div>
-    
-
-
+       <table style="width:100%">
+        <tr>
+            <td><div class="chart" id="Chart8"> </div></td>
+            <td><div class="chart" id="Chart9"> </div></td>
+            <td><div class="chart" id="Chart10"> </div></td>
+        </tr>
+        <tr>
+          <td><div class="chart" id="Chart11"> </div></td>
+          <td><div class="chart" id="Chart12"> </div></td>
+          <td><div class="chart" id="Chart13"> </div></td>
+        </tr>
+        <tr>
+            <td><div class="chart" id="Chart14"> </div></td>
+            <td><div class="chart" id="Chart15"> </div></td>
+            <td><div class="chart" id="Chart16"> </div></td>
+          </tr>
+      </table>
     </div>
 
     <div class="myWeek7">
-        <h2>Task 6</h2>    
-        
-        <p>text</p>
-        
-        
-        <div class="chart" id="Chart17"></div>
-        
-        
-        <div class="chart" id="Chart18"></div>
+        <h2>Task 6: Two maps: a base map and a choropleth</h2> 
+        <div class="text">
+          <a>The first map shows England by local district authorities.The second one shows the income average score for each of the districts.</a>
+      </div> 
+       
+       <div class="chart chart-centre" id="Chart17"> </div>
+       
+       <div class="chart chart-centre" id="Chart18"> </div>
     </div>
 
     <div class="myWeek8">
-        <h2>Task 7</h2>    
+        <h2>Task 7: Festival of Economics</h2> 
+        <div class="text">
+          <a>The graphs proove that wages aren't keeping up with inflation and don't neccesarily have to as low income households are affected by inflation a lot more than high income ones.</a>
+        </div>
         
-        <p>text</p>
-        
-        
-        <div class="chart" id="Chart19"></div>
-        
-        
-        <div class="chart" id="Chart20"></div>
+        <div class="chart chart-centre" id="Chart19"> </div>
+        <div class="chart chart-centre" id="Chart20"> </div>
     </div>
+        
+    <div class="myWeek9">
+      <h2>Task 8: Advanced Charts</h2> 
+      <div class="text">
+        <a>The first graph looks at the relationship between GDP per capita and the gender wage gap, worldwide. The second graphs looks at the share of woman in top income groups for 9 developed countries.</a>
+      </div>
+      
+      <div class="chart" id="Chart21"> </div>
+      <div class="chart" id="Chart22"> </div>
+  </div>
+
+  <div class="myWeek10&11">
+    <h2>Task 10 & 11: Machine learning</h2> 
+    <div class="text">
+      <a>This graph plots the average growth rate of real GDP per capita for emerging-market and developing economies over the 1990s and the Gender Inequality Index in 1990. The regession of GII on GDP shows a negative correlation between the two suggesting that higher GDP is linked to lower inequality. The regression can be seen <a class=”textLink” href=”https://colab.research.google.com/drive/1H4GKnHkOwdB6mcgTJHMt4PCRnhbZXOXc?usp=sharing”> here.</a>
+    </div>
+    
+    
+      <img class="chart chart-centre"  alt="My Image" src="week10.png" />
+   
+   
+</div>
+      
+  
+
+
 </body>
 
 
@@ -187,6 +242,8 @@
     var myChart18 =  "task6_graph2.json";
     var myChart19 =  "task7_graph1.json";
     var myChart20 =  "task7_graph2.json";
+    var myChart21 =  "task8_graph1.json";
+    var myChart22 =  "task8_graph2.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -209,6 +266,8 @@
     vegaEmbed('#Chart18', myChart18);
     vegaEmbed('#Chart19', myChart19);
     vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
 </script>
 
 </html>

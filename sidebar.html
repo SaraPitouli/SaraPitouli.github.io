@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Menu </title>
     
+    <!-- Title for the page -->
+    <title>Data Science Portofolio</title>
+
+    <!-- Link to my style sheet -->
     <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet">
+
+    <!-- <script> src="kit.fontawasome.com/a076d053999.js"</script>  -->
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <!-- <script src="https://kit.fontawesome.com/b711091487.js" crossorigin="anonymous"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
 </head>
 
+
+
 <body>
-    <div class="main_box">
-        <input type="checkbox" id="check">
-        <div class="btn_one">
-            <label for="check">
-                <i class="fas fa-bars"></i>
-            </label>
-        </div>    
-        <div class="sidebar_menu">
-            <div class="logo">
-                <a href="#">Data Science</a>
-            </div>
-            <div class="btn_two">
-                <label for="check">
-                    <i class="fas fa-times"></i>
-                </label>
-            </div>
-            <div class="menu">
-            <ul>
-                <li><i class="fas fa-qrcode"></i>
-                    <a href="sidebar.html">Home</a>
-                </li>
-                <li><i class="fas fa-link"></i>
-                    <a href="index.html">Portofolio</a>
-                </li>
-                <li><i class="fas fa-qrcode"></i>
-                    <a href="#">Project</a>
-                </li>
-                <li><i class="fas fa-qrcode"></i>
-                    <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">Github</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-
+    <!--navigation bar and title-->
+    <div class="sidebar_menu">
+        <ul style= "padding-left: 0px;margin-top: 0px;">
+             <li>
+                <a class= "active" href="sidebar.html">
+                 <span class="icon"><i class="fa fa-home"></i></span>
+                 <span class="title">Home</span>
+                </a>
+             </li>
+        
+            <li>
+                <a href="index.html">
+                 <span class="icon"><i class="fa fa-code"></i></span>
+                 <span class="title">Portfolio</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="project">
+                 <span class="icon"><i class="fa fa-book"></i></span>
+                 <span class="title">Project</span>
+                </a>
+            </li>
+    
+        
+            <li>
+                <a href="https://github.com/SaraPitouli/SaraPitouli.github.io">
+                 <span class="icon"><i class="fa fa-user"></i></span>
+                 <span class="title">Github</span>
+                </a>
+            </li>
+        
+        </ul>
     </div>
-</body>
+
+    <div style="margin-left:150px;margin-right:5%;padding:2px 15px;height:1000px;">
+
+    </body>
+
 </html>
-
-
-
-
-

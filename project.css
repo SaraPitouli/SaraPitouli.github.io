@@ -121,8 +121,8 @@ h2 {
 
 h3{
   color: #000000e8;
-	font-size: 20px;
-    font-weight: 500;
+	font-size: 25px;
+    font-weight: 550;
 	margin-top: 30;
 	margin-bottom: 0;	
 	text-align: center;
@@ -155,137 +155,57 @@ table td {
 
 }
 
-
-.myWeek4{
-    margin: auto;
-    max-width: 1000px;
-    background-color: transparent;
-    
-
-      
-    border-width: 0px;
-    border-style: none;
-    border-radius: 0px;
-    border-color: black;
-}
-
-.myWeek7{
-  margin: auto;
-  max-width: 1000px;
-  background-color: transparent;
-  align-items: center;
-
-    
-  border-width: 0px;
-  border-style: none;
-  border-radius: 0px;
-  border-color: black;
-}
-
-.myWeek3{
-  margin: 30px;
-  max-width: 1000px;
-  background-color: transparent;
-  align-items: center;
-
-    
-  border-width: 10px;
-  border-style: none;
-  border-radius: 0px;
-  border-color: black;
-}
-
-.myWeek8{
-  margin: auto;
-  max-width: 1000px;
-  background-color: transparent;
-  align-items: center;
-
-    
-  border-width: 0px;
-  border-style: none;
-  border-radius: 0px;
-  border-color: black;
-}
-
-.myWeek5{
-  margin: auto;
-  max-width: 1000px;
-  background-color: transparent;
-  align-items: center;
-
-    
-  border-width: 0px;
-  border-style: none;
-  border-radius: 0px;
-  border-color: black;
-}
-
-
-.chart-centre{
-  margin-left: 23%;
-    margin-right: 23%;
-}
-
-
-
-
-
-
-/* Set the apperance for a particular chart */
-.chart{
-background-color: rgb(247, 242, 232) ;
-width: 50;
-min-width: auto;
-align-items: center;
-justify-content: center;
-position:static;
-
-margin-top: 17px;
-border-style: solid;
-border-color: black ;
-border-width: 1px;
-border-radius: 30px;
-text-align: center;
-padding: 20px;
-flex-flow: row wrap;
-height: 300;}
-
-.chartw5{
-  background-color: rgb(247, 242, 232) ;
-  width: 0px;
-  min-width: auto;
-  align-items: center;
-  justify-content: center;
-  position:static;
-  margin-left: 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-color: black ;
-  border-width: 1px;
-  border-radius: 25px;
+.text2{
+  color:#000000;
+  font-family: 'Poppins', sans-serif ;
+  font-size: 18px;
+  /* line-height: 0;  */
   text-align: center;
-  padding: 0px;
-  flex-flow: row wrap;}
+  padding-top: 20px;
+  margin-bottom: 9px;
 
-
-.title:hover {
-  font-weight: bold;
 }
-  
 
-  .chart:hover {
-    
-    transform: scale(1.04, 1.04);
-    transition: 0.6s;
-    
-  }
+.chart{
+    background-color: rgb(247, 242, 232) ;
+    max-width: 50;
+    min-width: auto;
+    align-items: center;
+    justify-content: center;
+    position:static;
+    margin-left: 10px;
+    margin-top: 17px;
+    border-style: solid;
+    border-color: black ;
+    border-width: 1px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    flex-flow: row wrap;
+    height: 300;}
 
-  .chartw5:hover {
+    .chart:hover {
     
-    transform: scale(1.04, 1.04);
-    transition: 0.6s;
-    
-  }
+        transform: scale(1.04, 1.04);
+        transition: 0.6s;
+        
+      }
 
+      .chart-centre{
+        margin-left: 23%;
+          margin-right: 23%;
+      }
+
+      .chart-centre2{
+        margin-left: 15%;
+          margin-right: 17%;
+      }
+      
+      
+
+      .title:hover {
+        font-weight: bold;
+      }
+        
+
+    
