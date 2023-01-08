@@ -1,0 +1,86 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": {
+      "text": "Figure 5: Gender Wage Gap vs GDP Per Capita",
+      "subtitle":["Human Development Index (x), FIFA ranking points (y). 2021 data","Size of points based on popluation", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+  "config": {
+    "background":"white",
+    "view": {
+      "stroke": "transparent"}},
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/gender-wage-gap-vs-gdp-per-capita.csv",
+      "format":{"type":"csv"}},
+  
+    "mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+      "background":"rgb(247, 242, 232) ",
+    "height": 310,
+    "width": 300,
+
+     "transform": [
+    {"calculate": "year(datum.Year)", "as": "year"},
+    {"filter": "datum.year==minYear"},
+    
+
+    {"calculate": "toNumber(datum['GDP per capita, PPP (current international $)'])", "as": "GDP"},
+    {"calculate": "toNumber(datum['Gender wage gap (%)'])", "as": "gap"},
+    {"calculate": "toNumber(datum['Population (historical estimates)'])", "as": "Population"}
+    
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 2016,
+      "bind": {
+        "input": "range",
+        "min": 1989,
+        "max": 2021,
+        "step": 1,
+        "name": "Start Year: "
+      }
+    }
+   
+  
+  ],
+  
+    "encoding": {
+      "x": {
+        "field": "GDP", 
+        "type": "quantitative",
+        "scale": { "type": "log"},
+        "axis":{"grid": false},
+        "title":null},
+  
+      "y": {
+        "field": "gap", 
+        "type": "quantitative",
+        
+        "axis":{"grid": false},
+        "title":null},
+  
+      "size": {
+        "field": "Population", 
+        "type": "quantitative",
+        "title":"Population",
+        "scale": { "range": [10, 800]},
+        "legend":null},
+      "color": {"field": "Continent", "type": "nominal"},
+
+      "tooltip":[
+        {"field":"Entity", "type": "nominal", "title":"Country"},
+        {"field":"gap", "type": "quantitative", "title":"y"},
+        {"field":"GDP", "type": "quantitative", "title":"x", "format":".2f"},
+        {"field":"Population", "type": "quantitative", "title":"Population", "format":","}
+
+      ]
+     }
+  }

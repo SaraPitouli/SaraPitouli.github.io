@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Figure 3: Percentage of firms with female top managers around the world",
+     
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "config": {"background": "white", "view": {"stroke": "transparent"}},
+    "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+    "data": {"url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/firms-with-female-top-manager-of-firms-bars.csv"},
+  "height": 365,
+  "width": 300,
+    "background": "rgb(247, 242, 232) ",
+    "encoding": {
+      "y": {"field": "Entity", "type": "ordinal", "title": null},
+      "x": {"field": "Firms with female top manager (% of firms)", "type": "quantitative", "scale": {"domain": [0, 40]}, "title":null},
+      "color": {"value": "#d67195"}
+    },
+    "layer": [{
+      "mark": "bar"
+    }, {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": { 
+        "text": {"field": "Firms with female top manager (% of firms)", "type": "quantitative"}
+      }
+    }]
+  }
+  

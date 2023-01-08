@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data",
+    "title": {
+      "text": "CPI inflation and Regular Pay in the UK, 2021-2022",
+      
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+         "url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/task7_data.csv"}
+    ,
+    "transform": [{"calculate": "toDate(datum.Year+ '15')","as":"Y"}],
+    "width": 400,
+    "height": 300,
+    "background":"rgb(247, 242, 232) ",
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Y", "type": "temporal"},
+      "y": {"field": "Value", "type": "quantitative"},
+      "color": {"field": "Type", "type": "nominal"}
+    }
+  }

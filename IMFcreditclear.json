@@ -8,10 +8,10 @@
       "anchor": "start",
       "color": "black"},
   
-  "data":{"url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/week2/data_IMF_creditOutstandingNEW.csv"},
+  "data":{"url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/data_IMF_creditOutstandingNEW.csv"},
 
   "transform": [{"calculate": "datum.Totals/1000000000", "as": "billions"}],
-
+  "background":"rgb(247, 242, 232) ",
   "height": 300,
   "width": 260,
 

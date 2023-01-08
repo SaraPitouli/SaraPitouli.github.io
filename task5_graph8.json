@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Gross Domestic Product at market prices: CP: NSA £m",
+      "text": "GDP at market prices: CP: NSA £m",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
@@ -12,8 +12,9 @@
       "format": {"type":"json", "property": "years"}
         
     },
-    "height": 300,
-    "width": 300,
+    "background":"rgb(247, 242, 232) ",
+    "height": 150,
+    "width": 150,
     "mark": "line",
     "encoding": {
       "x": {"field": "year", "type": "temporal"},

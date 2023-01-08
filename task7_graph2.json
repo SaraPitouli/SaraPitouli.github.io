@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "description": "A simple bar chart with embedded data",
+  "title": {
+    "text": "CPI and CPIH by icome decile, October 2022",
+    "subtitle": "Deciles 1 equals lowest income households and 10 eqauls highest income housegolds",
+    
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [{"Decile ": 1, "Value": 12.5, "Category": "CPI by income decile "}, {"Decile ": 2, "Value": 11.9, "Category": "CPI by income decile "}, {"Decile ": 3, "Value": 12.5, "Category": "CPI by income decile "}, {"Decile ": 4, "Value": 11.6, "Category": "CPI by income decile "}, {"Decile ": 5, "Value": 11.7, "Category": "CPI by income decile "}, {"Decile ": 6, "Value": 11.0, "Category": "CPI by income decile "}, {"Decile ": 7, "Value": 11.2, "Category": "CPI by income decile "}, {"Decile ": 8, "Value": 10.7, "Category": "CPI by income decile "}, {"Decile ": 9, "Value": 10.5, "Category": "CPI by income decile "}, {"Decile ": 10, "Value": 9.6, "Category": "CPI by income decile "}, {"Decile ": 1, "Value": 10.6, "Category": "CPIH by income decile "}, {"Decile ": 2, "Value": 10.5, "Category": "CPIH by income decile "}, {"Decile ": 3, "Value": 10.7, "Category": "CPIH by income decile "}, {"Decile ": 4, "Value": 10.1, "Category": "CPIH by income decile "}, {"Decile ": 5, "Value": 10.1, "Category": "CPIH by income decile "}, {"Decile ": 6, "Value": 9.6, "Category": "CPIH by income decile "}, {"Decile ": 7, "Value": 9.6, "Category": "CPIH by income decile "}, {"Decile ": 8, "Value": 9.3, "Category": "CPIH by income decile "}, {"Decile ": 9, "Value": 9.1, "Category": "CPIH by income decile "}, {"Decile ": 10, "Value": 8.5, "Category": "CPIH by income decile "}]
+  },
+  "background":"rgb(247, 242, 232) ",
+  "width": 400,
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Decile "},
+    "y": {"field": "Value", "type": "quantitative"},
+    "xOffset": {"field": "Category"},
+    "color": {"field": "Category"}
+  }
+}

@@ -9,6 +9,7 @@
     "anchor": "start",
     "color": "black"
   },
+  "background":"rgb(247, 242, 232) ",
   "width": 400,
   "height": 300,
   "data": {

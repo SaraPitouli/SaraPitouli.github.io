@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Figure 4: Female to Male Ratio on time spent on unpaid care work in 2014",
+     "subtitle": ["Unpaid care work refers to all services provided within the household, including care of persons, housework and voluntary community work."],
+  
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "config": {"background": "white", "view": {"stroke": "transparent"}},
+    "description": "Bar chart with text labels. Set domain to make the frame cover the labels.",
+    "data": {"url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/female-to-male-ratio.csv"},
+  "height": {"step": 9},
+  "width": 400,
+    "background": "rgb(247, 242, 232) ",
+    "encoding": {
+      "y": {"field": "Entity", "type": "ordinal", "title":null},
+      "x": {"field": "ratio", "type": "quantitative", "scale": {"domain": [0, 18]}, "title":null},
+      "color": {"value": "#fc8d62"}
+    },
+    "layer": [{
+      "mark": "bar"
+    }, {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": { 
+        "text": {"field": "ratio", "type": "nominal"}
+      }
+    }]
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
+  "data": {
+    "url": "https://raw.githubusercontent.com/SaraPitouli/SaraPitouli.github.io/main/woman_incomegroups_data.csv"
+  },
+  "title": {
+    "text": "Figure 2: Share of Woman in Top Income Groups, 2000 VS 2013",
+   
+    "anchor": "start"
+  },
+  "background": "rgb(247, 242, 232) ",
+  "width": 300,
+  "height": 300,
+  "params": [{
+    "name": "Year",
+   "value": "2000",
+    "bind": {"input": "select", "options": ["2000", "2013"]}
+  }],
+
+  "transform": [ {"filter": "datum.Year==Year"},
+    {"calculate": "toNumber(datum.Year)", "as": "Y"},
+    {"calculate": "toNumber(datum['Value '])", "as": "V"}
+  
+  ],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Income Groups ", "type": "nominal", "axis": {"grid": true}},
+    "y": {"field": "V", "type": "quantitative", "axis": {"grid": false}},
+  
+    "color": {"field": "Country ", "type": "nominal"}
+  }
+}
